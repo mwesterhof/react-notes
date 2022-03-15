@@ -1,0 +1,21 @@
+.Note {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffcc;
+    border-radius: 3px;
+    filter: drop-shadow(4px 4px 4px #888866);
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Note button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+
+    background-color: #000088;
+    border: 0px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}

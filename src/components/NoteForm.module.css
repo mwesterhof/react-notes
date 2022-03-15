@@ -1,0 +1,16 @@
+.NoteForm {
+    width: 300px;
+    margin: 10px auto;
+    background-color: #eeeeff;
+    padding-left: 5px;
+    padding-right: 15px;
+    border: 1px solid #888877;
+}
+
+.NoteForm form input {
+    width: 100%;
+}
+
+.NoteForm form textarea {
+    width: 100%;
+}

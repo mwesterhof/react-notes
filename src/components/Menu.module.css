@@ -1,0 +1,10 @@
+.Menu {
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
