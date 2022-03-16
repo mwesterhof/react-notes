@@ -12,8 +12,10 @@ const Note = (props) => {
         e.stopPropagation();
     };
 
+    const classNames = `${classes.Note}${props.note.active ? '': ` ${classes.inactive}`}`;
+
     return (
-        <div className={classes.Note} onClick={clickHandler}>
+        <div className={classNames} onClick={clickHandler}>
             <h2>
                 {props.note.active ? props.note.title : <strike>{props.note.title}</strike>}
             </h2>

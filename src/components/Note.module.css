@@ -9,13 +9,22 @@
     cursor: pointer;
 }
 
+.inactive {
+    opacity: 50%;
+}
+
 .Note button {
     position: absolute;
     top: 1px;
     right: 1px;
 
-    background-color: #000088;
+    background-color: #00008820;
     border: 0px;
     color: #FFFFFF;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.Note:hover button {
+    background-color: #000088;
 }
