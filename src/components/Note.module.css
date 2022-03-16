@@ -1,7 +1,7 @@
 .Note {
     width: 225px;
     height: 225px;
-    background-color: #ffffcc;
+    background-color: #ffffbb;
     border-radius: 3px;
     filter: drop-shadow(4px 4px 4px #888866);
     float: left;
@@ -11,6 +11,20 @@
 
 .inactive {
     opacity: 50%;
+    animation-duration: .5s;
+    animation-name: noteFade;
+    filter: drop-shadow(2px 2px 2px #888866);
+}
+
+@keyframes noteFade {
+    from {
+        opacity: 100%;
+        filter: drop-shadow(4px 4px 4px #888866);
+    }
+    to {
+        opacity: 50%;
+        filter: drop-shadow(2px 2px 2px #888866);
+    }
 }
 
 .Note button {
@@ -18,7 +32,7 @@
     top: 1px;
     right: 1px;
 
-    background-color: #00008820;
+    background-color: #00008810;
     border: 0px;
     color: #FFFFFF;
     border-radius: 5px;
@@ -27,4 +41,15 @@
 
 .Note:hover button {
     background-color: #000088;
+    animation-duration: .5s;
+    animation-name: buttonFade;
+}
+
+@keyframes buttonFade {
+    from {
+        background-color: #00008810;
+    }
+    to {
+        background-color: #000088;
+    }
 }
