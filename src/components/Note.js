@@ -1,5 +1,4 @@
 import classes from './Note.module.css';
-import { useState } from 'react';
 
 
 const Note = (props) => {
